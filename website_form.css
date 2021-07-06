@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.signin_page h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    color: #3e413e;
+    font-family: 'Cinzel', serif;
+}
+.signin_page form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70vh;
+}
+.signin_page form h3{
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: -1.2px;
+    color: #444744;
+    padding-bottom: 20px;
+}
+.signin_page form .signin_form{
+    padding-top: 40px;
+    padding-left: 3.4em;
+}
+.signin_page form .signin_form .fname, .email, .country, .city{
+    float: left;
+    margin-right: 4em;
+}
+.signin_page form .signin_form label{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+.signin_page form .signin_form input{
+    margin-bottom: 20px;
+}
+.signin_page form .signin_form input[type="text"], input[type="password"]{
+    width: 400px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #75c5a3;
+    font-size: 14px;
+    padding: 6px 0px;
+    color: #5d615d;
+}
+.signin_page form .signin_form input::placeholder{
+    color: #bbc2ba;
+    font-size: 14px;
+}
+.signin_page form .signin_form select{
+    width: 400px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #75c5a3;
+}
+.signin_page form .signin_form input[type="submit"]{
+    padding: 10px 20px;
+    border: 1px solid #787a78;
+    color: #484e48;
+    background: #f9fffc;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 23em;
+    margin-top: 3em;
+}
+.signin_page form .signin_form input[type="submit"]:hover{
+    background: #f1fdf8;
+}
